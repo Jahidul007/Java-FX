@@ -1,0 +1,23 @@
+.root{
+    -fx-background-color: #000308;
+    -fx-font-size:10pt;
+   
+}
+.label{
+    -fx-text-fill: #FFFFFF;
+} 
+.button{
+    -fx-background-color:silver;
+    -fx-text-fill:blue;
+    -fx-background-radius:4;
+}
+
+.button-blue{
+    -fx-background-color:#FFFFFF;
+    -fx-text-fill:red;
+    -fx-background-radius:4;
+}
+#bold-label{
+    -fx-font-weight:bold;
+    -fx-text-fill:linear-gradient(red,green);
+}

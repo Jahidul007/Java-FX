@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="6 communicatinng btn windows.jnlp">
+  <information>
+    <title>6 communicatinng btn windows</title>
+    <vendor>JAHIDUL ISLAM</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="6 communicatinng btn windows" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg6.communicatinng.btn.windows.CommunicatinngBtnWindows"  name="6 communicatinng btn windows" />
+  <update check="always"/>
+</jnlp>
