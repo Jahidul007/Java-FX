@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: brown;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="temp.FXMLController">
+   <children>
+      <ComboBox fx:id="one" layoutX="52.0" layoutY="111.0" prefWidth="150.0" promptText="select" />
+      <Label layoutX="52.0" layoutY="56.0" prefHeight="55.0" prefWidth="103.0" text="FROM">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="155.0" prefHeight="67.0" prefWidth="51.0" text="TO">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="two" layoutX="52.0" layoutY="209.0" prefWidth="150.0" promptText="select" />
+      <Button fx:id="converter" layoutX="274.0" layoutY="175.0" mnemonicParsing="false" onAction="#converterButtonAction" text="CONVERTER" />
+      <Button fx:id="clearButton" layoutX="289.0" layoutY="277.0" mnemonicParsing="false" text="CLEAR" />
+      <TextField fx:id="output" layoutX="419.0" layoutY="209.0" text="RESULT" />
+      <TextField fx:id="input" layoutX="419.0" layoutY="111.0" text="Enter Input" />
+      <Button fx:id="closeButton" layoutX="289.0" layoutY="361.0" mnemonicParsing="false" onAction="#closeButtonAction" text="CLOSE" />
+   </children>
+</AnchorPane>
